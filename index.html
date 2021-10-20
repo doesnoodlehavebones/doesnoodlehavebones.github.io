@@ -3,8 +3,17 @@
 <head>
     <style>
         body {background-color: green;}
-        h1   {color: white;}
-        p    {color: white;}
+        h1 {
+          color: white;
+          text-align:center;
+        }
+        p  {color: white;}
+        .center {
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
     </style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-9NW30RJNRX"></script>
@@ -16,7 +25,9 @@
     </script>
 </head>
 <body>
-    <h1>Yes</h1>
-    <p>Noode has bones today</p>
+    <div class="center">
+      <h1>Yes</h1>
+      <p>Noodle has bones today</p>
+    </div>
 </body>
 </html>
